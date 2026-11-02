@@ -1,0 +1,6 @@
+{
+  "name": "iPhone AI Photo Editor",
+  "description": "Professional iPhone-style photo editor with AI face enhancement, 4K UHD upscaling, HDR color engine, and offline pro adjustments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

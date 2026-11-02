@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Camera Outer Metallic Bezel Ring -->
+    <path
+        android:pathData="M54,54m-28,0a28,28 0,1 1,56 0a28,28 0,1 1,-56 0"
+        android:strokeWidth="3.5"
+        android:strokeColor="#636366" />
+
+    <!-- Lens Inner Sapphire Ring -->
+    <path
+        android:pathData="M54,54m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="32"
+                android:endX="76"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0A84FF" />
+                <item android:offset="0.5" android:color="#1C1C1E" />
+                <item android:offset="1.0" android:color="#5E5CE6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Aperture Core -->
+    <path
+        android:pathData="M54,54m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#000000"
+        android:strokeWidth="1.5"
+        android:strokeColor="#30D158" />
+
+    <!-- Optical Reflection Arc -->
+    <path
+        android:pathData="M44,40 C47,37 51,36 56,36 C61,36 66,38 69,42"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+
+    <!-- AI Sparkle 1 (Top Right) -->
+    <path
+        android:pathData="M73,35 C73,31 75,29 79,29 C75,29 73,27 73,23 C73,27 71,29 67,29 C71,29 73,31 73,35 Z"
+        android:fillColor="#FFD60A" />
+
+    <!-- AI Sparkle 2 (Bottom Left) -->
+    <path
+        android:pathData="M35,73 C35,70 36.5,68.5 39.5,68.5 C36.5,68.5 35,67 35,64 C35,67 33.5,68.5 30.5,68.5 C33.5,68.5 35,70 35,73 Z"
+        android:fillColor="#FF9F0A" />
+
+    <!-- Center Sensor Reflection Point -->
+    <path
+        android:pathData="M54,54m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"
+        android:fillColor="#64D2FF" />
+</vector>
